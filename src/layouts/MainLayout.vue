@@ -11,7 +11,7 @@
         <div class="text-subtitle1">{{ todaysDate }}</div>
       </div>
       <q-img
-      src="src\assets\mountain.jpg"
+      src="\images\mountain.jpg"
       class="header-image absolute-top"/>
     </q-header>
 
@@ -40,7 +40,7 @@
         <q-img class="absolute-top" src="src\assets\mountain.jpg" style="height: 192px">
           <div class="absolute-bottom bg-transparent">
             <q-avatar size="56px" class="q-mb-sm">
-              <img src="src\assets\Avatar.jpg">
+              <img src="\images\Avatar.jpg">
             </q-avatar>
             <div class="text-weight-bold">Jonathan Rothe</div>
           </div>
@@ -79,6 +79,7 @@ export default defineComponent({
   setup () {
     const leftDrawerOpen = ref(false)
     return {
+      // eslint-disable-next-line vue/no-dupe-keys
       leftDrawerOpen,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value
