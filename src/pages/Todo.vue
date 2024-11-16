@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <q-page class="bg-grey-3 column">
       <div class="row q-pa-sm bg-primary">
